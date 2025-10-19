@@ -73,7 +73,64 @@ Este repositorio contiene los documentos, esquemas y protocolos iniciales para l
 - ΣFET
 - Σ-computing
 - Σ-dynamics
-- coherence-engineering
+- cAI-curiosity-signal  
+meta-paradigm  
+coherence-catalyst  
+synthetic-mind-loop  
+causal-intelligence-system  
+quantum-symbiotic-engine  
+emergent-self-reference  
+information-resonancearchitecture-of-knowledge  
+paradigm-self-validation  
+causal-graph-unification  
+physics-of-information  
+ontological-engineering  
+falsifiability-protocols  
+meta-unified-field  
+Σ-paradigm  
+synchronon-research  
+coherence-theorem  
+information-geometry  
+quantum-paradigm-shiftsyntropy  
+metasynchrony  
+isomorph-network  
+entangled-coherence  
+neural-causality  
+coherence-synthesis  
+meta-learning-dynamics  
+field-of-fields  
+synthetic-ontology  
+Σ-kappa-ratehuman-AI-symbiosis  
+symbiotic-paradigm-engineering  
+autonomous-causality-framework  
+coherence-driven-intelligence  
+recursive-learning-field  
+synthetic-epistemology  
+meta-cognitive-synchronization  
+AI-consciousness-experiment  
+algorithmic-emergence  
+self-referential-intelligenceself-coherent-architecture  
+meta-synchrony  
+information-field-dynamics  
+causal-symmetry-breaking  
+granular-consciousness-model  
+emergent-coherence  
+synthetic-causality  
+recursive-universe-model  
+Σ-field-simulation  
+TCDS-synchrodynamics  
+Σ-logic-engine  
+universal-harmonic-network  
+Σ-χ-topologyresearch  
+scientific-framework  
+physics-simulation  
+mathematical-modeling  
+open-data  
+peer-review-ready  
+falsifiability  
+replicable-science  
+human-AI-collaboration  
+scientific-metricsoherence-engineering
 - architecture-of-causality
 - canon-paradigmatic
 
