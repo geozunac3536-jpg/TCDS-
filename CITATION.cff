@@ -1,0 +1,12 @@
+
+cff-version: 1.2.0
+title: "TCDS — Teoría Cromodinámica Sincrónica"
+message: "Cita este repositorio si usas TCDS."
+type: software
+authors:
+  - family-names: Carrasco Ozuna
+    given-names: Genaro
+repository-code: "https://github.com/USER/TCDS"
+license: "MIT"
+version: "v0.1.0"
+date-released: "2025-10-19"

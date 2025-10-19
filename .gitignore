@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex*
+# Jupyter
+.ipynb_checkpoints/
+# OS
+.DS_Store
+Thumbs.db
+# Build
+site/_site/
+docs/_site/
+dist/
