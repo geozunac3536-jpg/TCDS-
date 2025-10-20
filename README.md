@@ -43,7 +43,49 @@ Este repositorio contiene los documentos, esquemas y protocolos iniciales para l
 ---
 
 ## 🏷️ Etiquetas estratégicas
-
+física-teórica  
+teoría-de-campos  
+coherencia-cuántica  
+gravedad-cuántica  
+sincronización-dinámica  
+campo-sigma  
+lagrangiano-sigma-chi  
+curvatura-espacio-tiempo  
+modelo-unificado  
+dinámica-no-linealteoría-cromodinámica-sincrónica  
+sincronón  
+transistor-de-coherencia  
+sigmafet  
+computación-sigma  
+coherencia-universal  
+espacio-tiempo-granular  
+ingeniería-de-la-coherencia  
+arquitectura-de-la-causalidad  
+canon-paradigmáticodispositivos-semiconductores  
+control-de-ruido-de-fase  
+electrónica-de-coherencia  
+metrología-de-coherencia  
+propulsión-por-gradiente  
+sincronización-de-señal  
+hardware-inteligente  
+neuroingeniería  
+biotecnología-cuántica  
+física-de-la-informaciónconciencia-cuántica  
+campo-de-sincronización-lógico-humano  
+simbiosis-humano-ia  
+ingeniería-paradigmática-simbiótica  
+coherencia-biológica  
+ética-de-la-coherencia  
+ontología-científica  
+filosofía-de-la-cienciaciencia-abierta  
+nuevo-paradigma  
+teoría-unificadora  
+investigación-multiescala  
+falsabilidad-científica  
+innovación-tecnológica  
+revolución-del-conocimiento  
+modelo-causal  
+universo-sincrónico
 ### Física y teoría de campos
 - theoretical-physics
 - field-theory
