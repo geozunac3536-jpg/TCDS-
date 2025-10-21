@@ -40,7 +40,8 @@ cat << 'EOF' > README.md
 
 Este repositorio contiene los documentos, esquemas y protocolos iniciales para la fase experimental del sistema TCDS, diseñado para probar la coherencia universal en arquitecturas Σ. El enfoque combina física teórica, ingeniería de dispositivos, y filosofía de la ciencia, proponiendo una nueva ontología de campo coherente.
 
----
+-#tags: TCDS, ΣFET, Synchronon, Coherence, Quantum Causality, Canon Paradigmático
+--
 
 ## 🏷️ Etiquetas estratégicas
 física-teórica  
@@ -291,6 +292,30 @@ El repositorio contiene los documentos base de propiedad intelectual y seguridad
 | Automatización | 🟡 | Script generado, falta subirlo |
 
 ---
+
+---
+
+## 🧠 Métricas de coherencia (Σ-metrics)
+
+La validación empírica del paradigma utiliza las métricas ΣMP:
+
+| Métrica | Descripción | Criterio de validez |
+|----------|-------------|---------------------|
+| R(t) | Coherencia temporal del campo Σ | R > 0.95 |
+| LI | Índice de locking entre osciladores | LI ≥ 0.9 |
+| RMSE_SL | Error medio cuadrático del sincronograma | RMSE_SL < 0.1 |
+| κΣ | Constante de acoplamiento coherencial | Reproducibilidad ≥ 95% |
+
+---
+
+## 🧪 Requisitos de instalación (Termux)
+
+```bash
+pkg update && pkg upgrade -y
+pkg install git python texlive -y
+git clone https://github.com/geozunac3536-jpg/TCDS-.git
+cd TCDS-
+bash scripts/setup_tcds_termux.sh
 
 ## 6. Recomendaciones a corto plazo
 - Crear índice de figuras (`TCDS_Graphs_Index.md`).
