@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Teoría Cromodinámica Sincrónica (TCDS)",
+  "alternateName": ["TMRCU", "MSL", "MCSLU"],
+  "description": "Paradigma de coherencia universal basado en el campo Σ y el sector Σ–χ, con predicción del sincronón (σ) y validación mediante ΣFET/SYNCTRON y CSL-H.",
+  "creator": { "@id": "mailto:geozunac3536@gmail.com" },
+  "keywords": "coherencia, Σ–χ, sincronón, ΣFET, CSL-H, Spin-Σ, R ∝ ∇²Σ, IPS",
+  "about": [
+    "Física teórica",
+    "Astrofísica",
+    "Biología de sistemas",
+    "Ingeniería de coherencia",
+    "Filosofía de la causalidad"
+  ],
+  "inLanguage": "es",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
