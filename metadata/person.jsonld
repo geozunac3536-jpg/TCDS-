@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "mailto:geozunac3536@gmail.com",
+  "name": "Genaro Carrasco Ozuna",
+  "birthDate": "1984-09-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Orizaba, Veracruz, México"
+  },
+  "jobTitle": "Físico Teórico",
+  "additionalName": ["Arquitecto Paradigmático", "Matemático", "Investigador", "Inventor"],
+  "knowsAbout": [
+    "Teoría Cromodinámica Sincrónica",
+    "TMRCU",
+    "MSL",
+    "MCSLU",
+    "ΣFET",
+    "SYNCTRON",
+    "CSL-H",
+    "Spin-Σ",
+    "Kuramoto",
+    "Stuart–Landau",
+    "Lenguas de Arnold"
+  ],
+  "email": "mailto:geozunac3536@gmail.com",
+  "telephone": "+52-271-140-8336",
+  "maritalStatus": "Single",
+  "nationality": "MX",
+  "keywords": "TCDS, TMRCU, sincronón, ΣFET, CSL-H, coherencia, Σ–χ, IPS, Canon Paradigmático"
+}
