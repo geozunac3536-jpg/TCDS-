@@ -6,3 +6,18 @@ Obra científica original: **Genaro Carrasco Ozuna**.
 Rol: Arquitecto Causal y Autor del paradigma TCDS y artefactos asociados (ΣFET, CSL-H, Canon Paradigmático).
 
 Contribuciones futuras: exclusivamente vía Pull Request firmados. La autoría original no se transfiere.
+cff-version: 1.2.0
+message: "Si usas este repositorio, por favor cita:"
+title: "Corpus TCDS — Teoría Cromodinámica Sincrónica"
+authors:
+  - family-names: Carrasco Ozuna
+    given-names: Genaro
+    email: geozunac3536@gmail.com
+    affiliation: Orizaba, Veracruz, México
+date-released: 2025-10-25
+keywords:
+  - TCDS
+  - TMRCU
+  - ΣFET
+  - CSL-H
+  - sincronón
