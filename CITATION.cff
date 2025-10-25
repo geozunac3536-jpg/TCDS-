@@ -10,3 +10,18 @@ repository-code: "https://github.com/USER/TCDS"
 license: "MIT"
 version: "v0.1.0"
 date-released: "2025-10-19"
+cff-version: 1.2.0
+message: "Si usas este repositorio, por favor cita:"
+title: "Corpus TCDS — Teoría Cromodinámica Sincrónica"
+authors:
+  - family-names: Carrasco Ozuna
+    given-names: Genaro
+    email: geozunac3536@gmail.com
+    affiliation: Orizaba, Veracruz, México
+date-released: 2025-10-25
+keywords:
+  - TCDS
+  - TMRCU
+  - ΣFET
+  - CSL-H
+  - sincronón
