@@ -19,7 +19,6 @@
       <li><a href="docs/">📄 Documentación</a></li>
       <li><a href="graphs/">📊 Visualizaciones</a></li>
       <li><a href="schematics/">📐 Diagramas</a></li>
-      <li><a href="scripts/setup_tcds_termux.sh">⚙️ Instalador Termux</a></li>
       <li><a href="LICENSES/">📜 Licencias</a></li>
       <li><a href="CITATION.cff">🔖 CITATION</a></li>
     </ul>
