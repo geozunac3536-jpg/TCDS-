@@ -32,7 +32,7 @@
   </main>
 
   <footer>
-    <p>© 2025 Genaro Carrasco Ozuna · geozunac3536@gmail.com</p>
+    <p>© 2025 Genaro Carrasco Ozuna · <p>geozunac3536@gmail.com</p>
   </footer>
 </body>
 </html>
