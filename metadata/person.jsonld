@@ -1,31 +1,56 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "mailto:geozunac3536@gmail.com",
+  "@id": "https://orcid.org/0009-0005-6358-9910",
   "name": "Genaro Carrasco Ozuna",
-  "birthDate": "1984-09-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Orizaba, Veracruz, México"
-  },
-  "jobTitle": "Físico Teórico",
-  "additionalName": ["Arquitecto Paradigmático", "Matemático", "Investigador", "Inventor"],
-  "knowsAbout": [
-    "Teoría Cromodinámica Sincrónica",
-    "TMRCU",
-    "MSL",
-    "MCSLU",
-    "ΣFET",
-    "SYNCTRON",
-    "CSL-H",
-    "Spin-Σ",
-    "Kuramoto",
-    "Stuart–Landau",
-    "Lenguas de Arnold"
+  "givenName": "Genaro",
+  "familyName": "Carrasco Ozuna",
+  "alternateName": [
+    "Genaro Carrasco",
+    "Arquitecto Causal TCDS",
+    "Genaro C. Ozuna"
+  ],
+  "identifier": [
+    "https://orcid.org/0009-0005-6358-9910",
+    "https://doi.org/10.5281/zenodo.17848365"
   ],
   "email": "mailto:geozunac3536@gmail.com",
-  "telephone": "+52-271-140-8336",
-  "maritalStatus": "Single",
-  "nationality": "MX",
-  "keywords": "TCDS, TMRCU, sincronón, ΣFET, CSL-H, coherencia, Σ–χ, IPS, Canon Paradigmático"
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "Proyecto TCDS / Motor Sincrónico de Luz (MSL)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MX"
+      }
+    }
+  ],
+  "jobTitle": [
+    "Autor y Arquitecto Causal de la Teoría Cromodinámica Sincrónica (TCDS)",
+    "Investigador independiente en coherencia Q–Σ–φ–χ",
+    "Diseñador de sistemas ΣFET/SYNCTRON y Reloj Causal Humano"
+  ],
+  "url": "https://geozunac3536-jpg.github.io/TCDS-/",
+  "sameAs": [
+    "https://scholar.google.com",
+    "https://github.com/geozunac3536-jpg",
+    "https://zenodo.org/search?q=Genaro+Carrasco+Ozuna",
+    "https://orcid.org/0009-0005-6358-9910"
+  ],
+  "knowsAbout": [
+    "Teoría Cromodinámica Sincrónica (TCDS)",
+    "Q–Σ–φ–χ",
+    "Σ-metrics y Filtro de Honestidad (E-Veto)",
+    "Sismología predictiva y Σ-Predictivo",
+    "Relojes y estándares de coherencia (Reloj Causal, SCP)",
+    "Astrofísica de objetos interestelares (3I/ATLAS)",
+    "Sistemas de coherencia cognitiva (CSL-H)",
+    "Gradiente económico TCDS",
+    "Ontologías JSON-LD para ciencia abierta"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Proyecto TCDS",
+    "url": "https://geozunac3536-jpg.github.io/TCDS-/"
+  }
 }
