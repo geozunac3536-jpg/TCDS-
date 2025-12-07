@@ -1,0 +1,217 @@
+/* ===== PALETA TCDS (tema oscuro coherencial) =====
+   Fondo: negro profundo ligeramente azulado
+   Tipografía: claro alto contraste
+   Acentos: cian y magenta (Q–Σ) + verde para OK
+*/
+
+:root {
+  --bg: #040612;
+  --bg-alt: #090f1f;
+  --bg-soft: #12172a;
+  --fg: #f5f7ff;
+  --muted: #a5acc7;
+  --accent: #36e1ff;   /* Σ/Q */
+  --accent2: #ff6bff;  /* φ */
+  --accent-ok: #4ade80;
+  --border-soft: rgba(255, 255, 255, 0.06);
+  --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.65);
+  --radius: 18px;
+  --transition-fast: 0.15s ease-out;
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+               "Segoe UI", Roboto, sans-serif;
+}
+
+/* ===== RESETEO SUAVE ===== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background: radial-gradient(circle at top, #161b33 0, #050713 45%, #02030a 100%);
+  color: var(--fg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== LAYOUT BÁSICO ===== */
+
+header {
+  padding: 2.5rem 1.5rem 1.5rem;
+  text-align: center;
+  background: linear-gradient(145deg, rgba(8, 12, 32, 0.95), rgba(4, 6, 18, 0.98));
+  border-bottom: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-soft);
+}
+
+header h1 {
+  margin: 0 0 0.4rem;
+  font-size: 2rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+header p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(14px);
+  background: linear-gradient(90deg, rgba(5, 7, 19, 0.92), rgba(5, 7, 19, 0.86));
+  border-bottom: 1px solid var(--border-soft);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0.4rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--muted);
+  border: 1px solid transparent;
+  transition: color var(--transition-fast),
+              background var(--transition-fast),
+              border-color var(--transition-fast),
+              transform var(--transition-fast);
+}
+
+nav a:hover {
+  color: var(--fg);
+  background: radial-gradient(circle at top, rgba(54, 225, 255, 0.18), transparent 60%);
+  border-color: rgba(54, 225, 255, 0.6);
+  transform: translateY(-1px);
+}
+
+/* ===== CONTENIDO ===== */
+
+main {
+  max-width: 960px;
+  margin: 1.5rem auto 2.5rem;
+  padding: 0 1rem;
+}
+
+section {
+  background: linear-gradient(145deg, rgba(9, 14, 32, 0.98), rgba(7, 11, 26, 0.98));
+  border-radius: var(--radius);
+  padding: 1.5rem 1.4rem;
+  margin-bottom: 1.1rem;
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.55);
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+section p {
+  font-size: 0.92rem;
+  color: var(--fg);
+}
+
+section ul {
+  margin: 0.4rem 0 0.4rem 1.2rem;
+  padding: 0;
+}
+
+section li {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+
+/* Bloques de cita y código */
+
+blockquote {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1rem;
+  background: rgba(10, 18, 40, 0.9);
+  border-left: 3px solid var(--accent2);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.9rem;
+  color: var(--fg);
+}
+
+pre {
+  margin: 0.7rem 0;
+  padding: 0.8rem 1rem;
+  background: #050818;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-soft);
+  font-size: 0.8rem;
+  overflow-x: auto;
+}
+
+/* Enlaces */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 1.2rem 1rem 1.8rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border-soft);
+  background: linear-gradient(180deg, rgba(4, 6, 16, 0.96), rgba(2, 3, 10, 1));
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 2.4rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  section {
+    padding: 1.8rem 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+  nav a {
+    white-space: nowrap;
+  }
+}
