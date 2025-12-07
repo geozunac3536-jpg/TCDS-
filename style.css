@@ -105,7 +105,40 @@ nav a:hover {
   border-color: rgba(54, 225, 255, 0.6);
   transform: translateY(-1px);
 }
+/* ==== TABLAS (catálogo de productos) ==== */
 
+.table-wrapper {
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  border: 1px solid var(--border-soft);
+  background: rgba(5, 8, 20, 0.95);
+}
+
+thead {
+  background: linear-gradient(90deg, rgba(54, 225, 255, 0.15), rgba(255, 107, 255, 0.12));
+}
+
+th,
+td {
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+th {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
 /* ===== CONTENIDO ===== */
 
 main {
