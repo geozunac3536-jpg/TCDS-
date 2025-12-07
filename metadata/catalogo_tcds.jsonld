@@ -1,0 +1,155 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.17848365#catalogo",
+  "name": "Catálogo Completo de Productos de Investigación TCDS (Σ-Domains, TRL-9)",
+  "description": "Catálogo semántico oficial de los productos de investigación asociados al Canon Operacional de la Teoría Cromodinámica Sincrónica (TCDS). Incluye obras teóricas, experimentales, metrológicas, sísmicas, astrofísicas, cognitivas y económicas, clasificadas en dominios Σ. Forma parte del DOI maestro 10.5281/zenodo.17848365.",
+  "creator": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910"
+  },
+  "includedInDataCatalog": "TCDS Canon Operacional TRL9",
+  "datePublished": "2025-12-08",
+  "keywords": [
+    "TCDS",
+    "Q–Σ–φ–χ",
+    "Σ-Metrics",
+    "E-Veto",
+    "Reloj Causal",
+    "Σ-FET",
+    "Sincronón σ",
+    "CSL-H",
+    "Sismología",
+    "3I/ATLAS",
+    "TRL9"
+  ],
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "3IATLAS",
+      "url": "https://doi.org/10.5281/zenodo.17224905",
+      "includedInDataCatalog": "Σ-ATLAS"
+    },
+    {
+      "@type": "Dataset",
+      "name": "3IATLAS (versión complementaria)",
+      "url": "https://doi.org/10.5281/zenodo.17224906",
+      "includedInDataCatalog": "Σ-ATLAS"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Paradigma FÍSICA",
+      "url": "https://doi.org/10.5281/zenodo.17447331",
+      "includedInDataCatalog": "Teoría Q–Σ–φ–χ"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Sistema predictivo de defensa Sísmica",
+      "url": "https://doi.org/10.5281/zenodo.17451385",
+      "includedInDataCatalog": "Σ-Predictivo"
+    },
+    {
+      "@type": "Dataset",
+      "name": "TCDS 3I ATLAS VALIDACION 2025",
+      "url": "https://doi.org/10.5281/zenodo.17555759",
+      "includedInDataCatalog": "Validación Σ-ATLAS"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Predicciones espectroscópicas 3I/ATLAS",
+      "url": "https://zenodo.org/records/17562117",
+      "includedInDataCatalog": "Σ-ATLAS Espectroscopía"
+    },
+    {
+      "@type": "Dataset",
+      "name": "CROMODINÁMICA Y PREDICCIONES 3I ATLAS",
+      "url": "https://zenodo.org/records/17148573",
+      "includedInDataCatalog": "Σ-ATLAS Cromodinámica"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Reloj Causal Humano v1.5",
+      "url": "https://zenodo.org/records/17695155",
+      "includedInDataCatalog": "Σ-Reloj Causal"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Predicción Post Perihelio 3I ATLAS",
+      "url": "https://zenodo.org/records/17560150",
+      "includedInDataCatalog": "Predicción Σ-ATLAS"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "La Sigma-Prosthesis",
+      "url": "https://zenodo.org/records/17848168",
+      "includedInDataCatalog": "CSL-H"
+    },
+    {
+      "@type": "Dataset",
+      "name": "El Sincronón σ",
+      "url": "https://zenodo.org/records/17847894",
+      "includedInDataCatalog": "Física fundamental"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Dualidad Cosmológica TCDS",
+      "url": "https://zenodo.org/records/17848030",
+      "includedInDataCatalog": "Cosmología Σ"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Evento Cero — t_C Puebla–Morelos",
+      "url": "https://zenodo.org/records/17606032",
+      "includedInDataCatalog": "Σ-Predictivo Validación"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Evento Cero — Implementación Termux",
+      "url": "https://zenodo.org/records/17605698",
+      "includedInDataCatalog": "Infraestructura Σ-Predictivo"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Canon Operacional TCDS 2025",
+      "url": "https://zenodo.org/records/17848365",
+      "includedInDataCatalog": "DOI Maestro TRL-9"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "3I ATLAS FRACTURA POR CHOQUE TÉRMICO",
+      "url": "https://zenodo.org/records/17561711",
+      "includedInDataCatalog": "Fisicoquímica Σ-ATLAS"
+    },
+    {
+      "@type": "Dataset",
+      "name": "MENTE TCDS",
+      "url": "https://zenodo.org/records/17584492",
+      "includedInDataCatalog": "CSL-H"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Validación Forense 19-S",
+      "url": "https://zenodo.org/records/17769548",
+      "includedInDataCatalog": "Σ-Predictivo"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "La Mente",
+      "url": "https://zenodo.org/records/17584200",
+      "includedInDataCatalog": "CSL-H"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Reloj Causal y SCP",
+      "url": "https://zenodo.org/records/17570393",
+      "includedInDataCatalog": "Metrología Σ"
+    },
+    {
+      "@type": "Dataset",
+      "name": "El Pivote Metrológico TCDS",
+      "url": "https://zenodo.org/records/17555261",
+      "includedInDataCatalog": "Metrología t_C"
+    }
+  ]
+}
