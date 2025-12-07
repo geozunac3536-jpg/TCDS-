@@ -2,17 +2,52 @@
   "@context": "https://schema.org",
   "@type": "CreativeWork",
   "name": "Teoría Cromodinámica Sincrónica (TCDS)",
-  "alternateName": ["TMRCU", "MSL", "MCSLU"],
-  "description": "Paradigma de coherencia universal basado en el campo Σ y el sector Σ–χ, con predicción del sincronón (σ) y validación mediante ΣFET/SYNCTRON y CSL-H.",
-  "creator": { "@id": "mailto:geozunac3536@gmail.com" },
-  "keywords": "coherencia, Σ–χ, sincronón, ΣFET, CSL-H, Spin-Σ, R ∝ ∇²Σ, IPS",
+  "alternateName": [
+    "TMRCU",
+    "MSL",
+    "MCSLU"
+  ],
+  "description": "Paradigma de coherencia universal basado en el marco Q–Σ–φ–χ, el campo de coherencia Σ, la materia inerte χ, la fricción informacional φ y el sincronón (σ). Este proyecto integra teoría, datos, software y protocolos de validación (ΣFET/SYNCTRON, Reloj Causal, Σ-Predictivo, CSL-H, 3I/ATLAS, gradiente económico) bajo un esquema de auditoría científica TRL9.",
+  "creator": {
+    "@id": "mailto:geozunac3536@gmail.com"
+  },
+  "keywords": [
+    "TCDS",
+    "Q–Σ–φ–χ",
+    "Σ–χ",
+    "sincronón",
+    "ΣFET",
+    "CSL-H",
+    "Reloj Causal",
+    "Spin-Σ",
+    "R ∝ ∇²Σ",
+    "IPS",
+    "TRL9"
+  ],
   "about": [
     "Física teórica",
     "Astrofísica",
     "Biología de sistemas",
     "Ingeniería de coherencia",
-    "Filosofía de la causalidad"
+    "Filosofía de la causalidad",
+    "Ciencia de datos",
+    "Sismología",
+    "Astrofísica de objetos interestelares"
   ],
-  "inLanguage": "es",
-  "license": "https://creativecommons.org/licenses/by/4.0/"
+  "inLanguage": [
+    "es",
+    "en"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.17848365"
+  ],
+  "url": "https://geozunac3536-jpg.github.io/TCDS-/",
+  "isBasedOn": [
+    "https://doi.org/10.5281/zenodo.17505875",
+    "https://doi.org/10.5281/zenodo.17520491",
+    "https://doi.org/10.5281/zenodo.17570393",
+    "https://doi.org/10.5281/zenodo.17507622"
+  ],
+  "citation": "Carrasco Ozuna, G. (2025). TCDS — Canon Operacional & Auditoría Científica TRL9 (DOI maestro 2025). Zenodo. https://doi.org/10.5281/zenodo.17848365"
 }
