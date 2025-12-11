@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>TCDS Usage Registry — Hunter/Crawler TRL-9</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Registro de uso del paquete TCDS Hunter/Crawler — TRL-9 Evidence Package." />
+  <style>
+    :root {
+      --bg: #050509;
+      --card: #11111a;
+      --accent: #00f3ff;
+      --accent-soft: #00f3ff33;
+      --accent-2: #ff00ff;
+      --text: #f5f5f5;
+      --muted: #9a9ab3;
+      --danger: #ff4b81;
+      --radius-xl: 24px;
+      --radius-lg: 16px;
+      --radius-md: 10px;
+      --shadow-soft: 0 18px 45px rgba(0,0,0,0.7);
+      --shadow-chip: 0 4px 12px rgba(0,0,0,0.6);
+      --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --font-mono: "JetBrains Mono", "Fira Code", monospace;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at top, #131329 0, #050509 55%);
+      color: var(--text);
+      font-family: var(--font-main);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .wrapper {
+      width: 100%;
+      max-width: 1000px;
+      padding: 32px 16px 80px;
+    }
+    .card {
+      background: linear-gradient(145deg, rgba(17,17,26,0.97), rgba(9,9,14,0.98));
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft);
+      padding: 28px 22px 32px;
+      border: 1px solid rgba(0,243,255,0.18);
+      backdrop-filter: blur(18px);
+    }
+    @media (min-width: 768px) {
+      .card {
+        padding: 34px 34px 38px;
+      }
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: radial-gradient(circle at top left, var(--accent-soft), transparent);
+      border: 1px solid rgba(0,243,255,0.35);
+      font-size: 11px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .tag span {
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin: 0 0 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h1 span.emoji {
+      font-size: 1.7rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-bottom: 18px;
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .pill {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px dashed rgba(154,154,179,0.6);
+    }
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 16px 0 20px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px 13px;
+      border-radius: var(--radius-md);
+      font-size: 0.82rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.09);
+      background: radial-gradient(circle at top, rgba(255,255,255,0.06), rgba(8,8,13,0.9));
+      box-shadow: var(--shadow-chip);
+      transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease, background 0.1s ease;
+      backdrop-filter: blur(10px);
+      cursor: pointer;
+    }
+    .btn span.icon {
+      font-size: 1rem;
+    }
+    .btn-primary {
+      border-color: rgba(0,243,255,0.6);
+      background: radial-gradient(circle at top, rgba(0,243,255,0.18), rgba(8,8,13,0.95));
+    }
+    .btn-kofi {
+      border-color: rgba(255,75,129,0.7);
+      background: radial-gradient(circle at top, rgba(255,75,129,0.18), rgba(8,8,13,0.96));
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.85);
+      border-color: rgba(255,255,255,0.35);
+    }
+    .section {
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .section h2 {
+      font-size: 1.05rem;
+      margin: 0 0 8px;
+    }
+    .section p {
+      margin: 6px 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .small-note {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 0.82rem;
+    }
+    th, td {
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 6px 7px;
+      text-align: left;
+    }
+    th {
+      background: rgba(255,255,255,0.03);
+    }
+    tbody tr:nth-child(odd) {
+      background: rgba(255,255,255,0.01);
+    }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      background: rgba(255,255,255,0.06);
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+    .footer {
+      margin-top: 18px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .badge-inline img {
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <div class="badge-row">
+        <div class="tag">
+          <span>Σ</span> TCDS Usage Registry
+        </div>
+        <div class="tag">
+          <span>TRL-9</span> Hunter / Crawler
+        </div>
+      </div>
+
+      <h1>
+        <span class="emoji">📘</span>
+        Registro de Uso — TCDS Hunter/Crawler
+      </h1>
+      <div class="subtitle">
+        Libro de visitas técnico del paquete
+        <strong>TCDS Hunter/Crawler — TRL-9 Evidence Package</strong> (DOI: 10.5281/zenodo.17885562).
+        Aquí se registra quién lo ejecuta, dónde y para qué.
+      </div>
+
+      <div class="pill-row">
+        <div class="pill">LI ≥ 0.90</div>
+        <div class="pill">R &gt; 0.95</div>
+        <div class="pill">RMSE<sub>SL</sub> &lt; 0.10</div>
+        <div class="pill">ΔH ≤ −0.20 (E-Veto)</div>
+      </div>
+
+      <!-- BOTONES PRINCIPALES -->
+      <div class="button-row">
+        <!-- Zenodo DOI badge -->
+        <a class="btn btn-primary" href="https://doi.org/10.5281/zenodo.17885562" target="_blank" rel="noopener">
+          <span class="icon">📦</span>
+          <span>Zenodo DOI 10.5281/zenodo.17885562</span>
+        </a>
+
+        <!-- Made with Python -->
+        <a class="btn" href="https://www.python.org/" target="_blank" rel="noopener">
+          <span class="icon">🐍</span>
+          <span>Made with Python</span>
+        </a>
+
+        <!-- GitHub Repo -->
+        <a class="btn" href="https://github.com/geozunac3536-jpg/TCDS-" target="_blank" rel="noopener">
+          <span class="icon">💻</span>
+          <span>Repo GitHub</span>
+        </a>
+
+        <!-- Home TCDS -->
+        <a class="btn" href="https://geozunac3536-jpg.github.io/TCDS-/" target="_blank" rel="noopener">
+          <span class="icon">🏠</span>
+          <span>Portal TCDS</span>
+        </a>
+
+        <!-- ORCID -->
+        <a class="btn" href="https://orcid.org/0009-0005-6358-9910" target="_blank" rel="noopener">
+          <span class="icon">🧬</span>
+          <span>ORCID 0009-0005-6358-9910</span>
+        </a>
+
+        <!-- Gmail -->
+        <a class="btn" href="mailto:geozunac3536@gmail.com" target="_blank" rel="noopener">
+          <span class="icon">✉️</span>
+          <span>Contacto por Email</span>
+        </a>
+
+        <!-- WhatsApp (reemplaza TU_NUMERO_E164) -->
+        <a class="btn" href="https://wa.me/TU_NUMERO_E164" target="_blank" rel="noopener">
+          <span class="icon">💬</span>
+          <span>WhatsApp Técnico</span>
+        </a>
+
+        <!-- Ko-fi (reemplaza TU_USUARIO_KOFI) -->
+        <a class="btn btn-kofi" href="https://ko-fi.com/TU_USUARIO_KOFI" target="_blank" rel="noopener">
+          <span class="icon">☕</span>
+          <span>Apoyar vía Ko-fi</span>
+        </a>
+      </div>
+
+      <div class="section">
+        <h2>🧾 Cómo registrarte</h2>
+        <p>
+          Si has ejecutado el sistema <code>Hunter</code>, <code>Crawler</code> o ambos, te invitamos a registrar tu uso para mantener una
+          <strong>huella de adopción auditable</strong>.
+        </p>
+        <p>
+          Opción A — <strong>Pull Request</strong>:
+        </p>
+        <ul style="margin: 4px 0 4px 16px; font-size: 0.9rem; color: var(--muted);">
+          <li>Abre el archivo <code>usage-registry.md</code> en el repositorio.</li>
+          <li>Añade una fila a la tabla con tus datos.</li>
+          <li>Envía un Pull Request indicando “Registro de uso TCDS Hunter/Crawler”.</li>
+        </ul>
+        <p>
+          Opción B — <strong>Contacto directo</strong>:
+        </p>
+        <ul style="margin: 4px 0 0 16px; font-size: 0.9rem; color: var(--muted);">
+          <li>Escríbenos a <a href="mailto:geozunac3536@gmail.com">geozunac3536@gmail.com</a>.</li>
+          <li>O envía un mensaje vía WhatsApp usando el botón de arriba.</li>
+        </ul>
+        <p class="small-note">
+          Los datos aquí listados son institucionales y técnicos; no se solicita información personal sensible.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>📊 Tabla de uso declarativo (snapshot)</h2>
+        <p>
+          Vista simplificada. La versión canónica vive en <code>usage-registry.md</code> dentro del repositorio.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Nº</th>
+              <th>Fecha (UTC)</th>
+              <th>Institución / Equipo</th>
+              <th>País</th>
+              <th>Rol de uso</th>
+              <th>Componentes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2025-12-10</td>
+              <td>Proyecto TCDS / MSL</td>
+              <td>México</td>
+              <td>Investigación + Validación TRL-9</td>
+              <td>Hunter + Crawler</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>—</td>
+              <td>—</td>
+              <td>—</td>
+              <td>—</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>📌 Metrología TCDS</h2>
+        <p>
+          El uso correcto del sistema está definido por el estándar de métricas Σ y el criterio E-Veto:
+        </p>
+        <ul style="margin: 6px 0 0 16px; font-size: 0.9rem; color: var(--muted);">
+          <li>LI ≥ 0.90</li>
+          <li>R &gt; 0.95</li>
+          <li>RMSE<sub>SL</sub> &lt; 0.10</li>
+          <li>Reproducibilidad ≥ 95%</li>
+          <li>ΔH ≤ −0.20 (E-Veto anti-apofenia)</li>
+        </ul>
+        <p class="small-note">
+          Solo quienes respeten estos criterios pueden reclamar operación en régimen <strong>TRL-9</strong> del paquete Hunter/Crawler.
+        </p>
+      </div>
+
+      <div class="footer">
+        <div class="footer-links">
+          <span class="badge-inline">
+            <a href="https://doi.org/10.5281/zenodo.17885562" target="_blank" rel="noopener">
+              <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17885562.svg" alt="DOI Zenodo 10.5281/zenodo.17885562">
+            </a>
+          </span>
+          <span class="badge-inline">
+            <img src="https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&logoColor=white" alt="Made with Python">
+          </span>
+          <span class="badge-inline">
+            <img src="https://img.shields.io/badge/Support-Ko--fi-ff5e5b?logo=kofi&logoColor=white" alt="Support on Ko-fi">
+          </span>
+        </div>
+        <div>
+          <span>© Proyecto TCDS / Motor Sincrónico de Luz — Genaro Carrasco Ozuna</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
